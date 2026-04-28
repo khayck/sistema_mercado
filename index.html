@@ -1,22 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercado</title>
 </head>
+
 <body>
     <form action="http://localhost:8080/finalizar-venda" method="post">
         <label for=""> Produtos: </label>
-        <input type="text" name="procureProduto">
+        <input type="text" name="nomeProduto">
         <label for=""> Preço: </label>
         <input type="number" name="precoUnitario">
         <label for=""> Quantidade: </label>
         <input type="number" name="quantidade">
-        <label for=""> Desconto </label>
+        <label for=""> Desconto: </label>
         <input type="text" name="cupomDesconto">
-
+        <button type="submit">Enviar</button>
     </form>
-       
+
 </body>
+
 </html>
